@@ -1,0 +1,36 @@
+body {
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+figure {
+  float: right;
+  width: 50%;
+  text-align: left;
+  font-style: oblique;
+  font-size: medium;
+  text-indent: 0;
+}
+
+h1,
+h2,
+p {
+  font-family: "Arial", "Verdana", sans-serif;
+  margin-top: 1.5em;
+}
+.text {
+  font-family: "Arial", "Verdana", sans-serif;
+  margin-left: 1.5em;
+}
+h1 {
+  font-size: 32px;
+}
+table {
+  border: 1px solid rgb(0, 0, 0);
+}
+th,
+td,
+caption {
+  border: 1px solid rgb(0, 0, 0);
+}
