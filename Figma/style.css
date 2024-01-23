@@ -1,0 +1,15 @@
+.image-container {
+  display: flex;
+  background-image: url(image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-overlay {
+  flex: 200;
+  color: #ffff;
+  line-height: 400px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
