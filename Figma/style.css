@@ -202,18 +202,18 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 24px;
-  max-width: 1100px;
+  max-width: 1219px;
   gap: 502px;
-}
-.PiedPiper_text1 {
-  display: flex;
-  flex: content;
   align-items: center;
 }
 
-a.text:active, /* активная/посещенная ссылка */
-a.text:hover,  /* при наведении */
-a.text {
+.text:active, /* активная/посещенная ссылка */
+.text:hover,  /* при наведении */
+.text {
   text-decoration: none;
   color: #ffffff;
+}
+.bordered::after {
+  content: "|";
+  margin: 0 8px;
 }
